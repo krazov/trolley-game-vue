@@ -24,3 +24,25 @@ The project is rewrite from [TrolleyGame](https://github.com/InALunch/TrolleyGam
 Apart from concept and types of problems I also reused messages from the original game. At this point—March 30th, 2018—I don’t have idea how far I will follow the original concept.
 
 I learned about the game on [Trolley Problem Memes](https://www.facebook.com/TrolleyProblemMemes/) Facebook group. More about the origins of the group can be found in [this interview with its creators](https://www.huffingtonpost.com/linch-zhang/behind-the-absurd-popular_b_10247650.html).
+
+## vue-cli information
+
+### Project setup
+```
+yarn install
+```
+
+#### Compiles and hot-reloads for development
+```
+yarn run serve
+```
+
+#### Compiles and minifies for production
+```
+yarn run build
+```
+
+#### Lints and fixes files
+```
+yarn run lint
+```
