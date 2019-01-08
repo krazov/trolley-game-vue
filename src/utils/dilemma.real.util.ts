@@ -1,6 +1,6 @@
-import { REAL_TROLLEY } from "../constants/dilemma.types";
-import { RealTrolleyGenerator } from "../meta/dilemma.real.meta";
-import { randomNumberBetween } from "./math.random.util";
+import { REAL_TROLLEY } from '../constants/dilemma.types';
+import { RealTrolleyGenerator } from '../meta/dilemma.real.meta';
+import { randomNumberBetween } from './math.random.util';
 
 export const realTrolleyDilemma: RealTrolleyGenerator =
     () =>
