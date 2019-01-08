@@ -1,6 +1,6 @@
-import { REAL_TROLLEY } from "../../src/constants/dilemma.types";
-import { RealTrolley } from "../../src/meta/dilemma.real.meta";
-import { realTrolleyDilemma } from "../../src/utils/dilemma.real.util";
+import { REAL_TROLLEY } from '../../src/constants/dilemma.types';
+import { RealTrolley } from '../../src/meta/dilemma.real.meta';
+import { realTrolleyDilemma } from '@/utils/dilemma.real.util';
 
 describe('realTrolleyDilemma()', () => {
     it('should generate real trolley dilemma', () => {
@@ -11,5 +11,5 @@ describe('realTrolleyDilemma()', () => {
         expect(actual.upperTrack).toBeLessThanOrEqual(5);
         expect(actual.lowerTrack).toBeGreaterThanOrEqual(1);
         expect(actual.lowerTrack).toBeLessThanOrEqual(10);
-    })
+    });
 });
