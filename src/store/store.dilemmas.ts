@@ -21,11 +21,9 @@ export const dilemmasModule: Module<DilemmasState, RootState> = {
     },
 
     mutations: {
-        [ADD_DILEMMA](state: DilemmasState, { dilemma }): Dilemma {
+        [ADD_DILEMMA](state: DilemmasState, { dilemma }): void {
             state.list.push(dilemma);
             state.count += 1;
-
-            return dilemma
         },
     },
 

@@ -19,11 +19,14 @@
         },
         computed: {
             paragraphs(): string[] {
-                return [
-                    `Type: ${this.dilemma.type}`,
-                    `Upper track: ${this.dilemma.upperTrack}`,
-                    `Lower track: ${this.dilemma.lowerTrack}`
-                ];
+                // TODO: extract it the message template util
+                return this.dilemma
+                    ? [
+                        `Type: ${this.dilemma.type}`,
+                        `Upper track: ${this.dilemma.upperTrack}`,
+                        `Lower track: ${this.dilemma.lowerTrack}`
+                    ]
+                    : [];
             },
         }
     });
