@@ -59,7 +59,9 @@
         "ObjectPattern": { "consistent":  true },
         "ImportDeclaration": { "consistent":  true },
         "ExportDeclaration": "always"
-      }]
+      }],
+      "indent":[1, 4],
+      "linebreak-style": 0
     },
     "parserOptions": {
       "parser": "typescript-eslint-parser"
