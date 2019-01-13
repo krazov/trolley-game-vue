@@ -46,7 +46,21 @@
       "@vue/typescript",
       "@vue/airbnb"
     ],
-    "rules": {},
+    "rules": {
+      "import/prefer-default-export": 0,
+      "operator-linebreak": 0,
+      "implicit-arrow-linebreak": 0,
+      "arrow-parens": [2, "always"],
+      "max-len": [2, 120],
+      "no-unused-vars": 0,
+      "typescript/no-unused-vars": 1,
+      "object-curly-newline": [2, {
+        "ObjectExpression": { "consistent":  true },
+        "ObjectPattern": { "consistent":  true },
+        "ImportDeclaration": { "consistent":  true },
+        "ExportDeclaration": "always"
+      }]
+    },
     "parserOptions": {
       "parser": "typescript-eslint-parser"
     }
