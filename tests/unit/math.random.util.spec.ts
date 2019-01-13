@@ -1,4 +1,4 @@
-import { randomNumberBetween } from "../../src/utils/math.random.util";
+import { randomNumberBetween } from '@/utils/math.random.util';
 
 describe('math.random()', () => {
     it('should generate random in given range (both ends inclusive)', () => {

@@ -12,8 +12,8 @@
     export default Vue.extend({
         name: 'app',
         components: {
-            HelloWorld
-        }
+            HelloWorld,
+        },
     });
 </script>
 <style lang="stylus">
